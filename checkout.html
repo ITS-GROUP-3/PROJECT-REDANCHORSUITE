@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkout.css">
+    <title>Checkout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <header>
+
+        <section class="topHeader">
+
+            <div class="banner">
+                <img src="images/banner.png" alt="">
+            </div>
+
+        </section>
+
+        <nav class="bottomHeader">
+
+            <div class="navbar">
+                <section class="subnav">
+                    HOME
+                </section>
+                <a href="rooms.html">
+                    <section class="subnav">
+                        ROOMS
+                    </section>
+                </a>
+                <section class="subnav">
+                    LEISURE
+                </section>
+                <section class="subnav">
+                    FOOD
+                </section>
+                <section class="subnav">
+                    CONTACT US
+                </section>
+                <section class="subnav">
+                    ABOUT US
+                </section>
+            </div>
+            
+        </nav>
+
+    </header>
+
+
+    <main>
+        
+        <div class="welcomeText">
+            <p class="topTitle">
+                WE ARE PLEASED TO SERVE YOU
+            </p>
+            <p class="bottomTitle">
+                <b> PROCEED TO YOUR CHECKOUT </b>
+            </p>
+        </div>
+
+        <div class="mainform">
+            <div class="formcontain">
+                <form action="mailto:redanchorsuites@gmail.com">
+                    <div class="subhead"> Name: </div>
+                    
+                    <div class="namecontain">
+                        <div class="nameinfo">
+                            <input type="text" name="fname" id="fname" >
+                            <label for="fname" class="realname">First</label>
+                        </div>
+                        <div class="nameinfo">
+                            <input type="text" name="lname" id="lname">
+                            <label for="lname" class="realname">Last</label>
+                        </div> 
+                    </div>
+    
+                    <div class="subhead"> Email: </div>
+    
+                    <div>
+                        <input type="text" name="email" id="email">
+                    </div>
+    
+                    <div class="subhead"> Phone No. </div>
+    
+                    <div>
+                        <input type="text" name="tel" id="tel">
+                    </div>
+    
+                    <div class="subhead"> Room Type: </div>
+                    <select name="roomlist" id="roomlist">
+                        <option value="onepax">STUDIO ROOM- Php 7500 / Month</option>
+                        <option value="twopax">TWIN ROOM- Php 10000 / Month</option>
+                        <option value="fourpax">QUAD ROOM- Php 12000 / Month</option>
+                        <option value="sixpax">DELUXE ROOM- Php 15000 / Month</option>
+                    </select>
+    
+                    <div class="subhead"> Comment/s: </div>
+    
+                    <textarea name="comment" id="comment" cols="51" rows="10">
+    
+                    </textarea>
+    
+                    <div class="buttoncontain">
+                        <input type="submit" id="submit">
+                        <input type="reset" id="reset">
+                    </div>
+                
+                </form>
+            </div>
+            
+
+            <div class="extraimage">
+                <img src="images/bell.jpg" class="outimg">
+            </div>
+
+        </div>
+
+        
+        
+    </main>
+    
+    <footer>
+
+    </footer>
+
+    
+    
+</body>
+</html>
